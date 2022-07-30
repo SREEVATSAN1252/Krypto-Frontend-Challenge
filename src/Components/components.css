@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+}
+.header {
+  background-color: rgb(28, 125, 251);
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  color: white;
+}
+.cartIcon a {
+  text-decoration: none;
+  color: white;
+}
+h2 {
+  padding: 10px;
+  margin-left: 100px;
+  font-size: xx-large;
+  padding-left: 100px;
+}
+
+.sideHeader > h3 {
+  padding: 15px;
+  font-weight: 300;
+}
+.sideHeader {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  padding-right: 250px;
+}
+.products {
+  width: 20%;
+  margin: 10px;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.products:hover {
+  background-color: rgb(239, 239, 239);
+}
+.header a {
+  text-decoration: none;
+  color: white;
+}
+.card > img {
+  height: 250px;
+  width: 250px;
+  padding: 19px;
+}
+.productCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.app {
+  background-color: rgb(227, 227, 227);
+}
+.cardTitle {
+  color: rgb(110, 110, 110);
+  margin-left: 10px;
+  font-size: 14px;
+}
+.cardText {
+  color: rgb(110, 110, 110);
+  margin-left: 10px;
+  font-size: 16px;
+}
+.rating {
+  background-color: rgb(0, 185, 0);
+  width: 27px;
+  color: white;
+  font-weight: 400;
+  margin-left: 10px;
+  padding: 2px;
+  border-radius: 4px;
+}
+.cancel {
+  color: red !important;
+}
+.fav {
+  margin-top: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.cart {
+  background-color: rgb(224, 224, 224);
+  height: fit-content;
+  display: flex;
+}
+.details {
+  background-color: white;
+  height: 60vh;
+
+  flex: 0.3;
+}
+.productCard2 {
+  flex: 0.7;
+  display: flex;
+
+  flex-wrap: wrap;
+}
+.products2 {
+  background-color: white;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  width: 30%;
+  cursor: pointer;
+}
+.button {
+  margin-top: 25px !important;
+  margin-left: 15px !important;
+}
+
+.pricetag {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin-top: 30px;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.details {
+  margin: 30px;
+}
+.info {
+  padding: 100px;
+}
+.pricetag > h4 {
+  margin-left: 100px;
+}
+
+.tic{
+    height: 150px !important;
+    width: 150px !important;
+    color: green !important;
+    margin: 20px;
+    padding-left: 90px;
+    align-items: center;
+}
